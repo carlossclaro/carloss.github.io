@@ -85,7 +85,7 @@ const config = {
     {
       title: 'MyMedicalCard',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Seamlessly create and manage comprehensive medical profiles, ensuring crucial information is instantly accessible even from your lock screen.',
       imageUrl: 'https://play-lh.googleusercontent.com/OR-8B8-vTrDzIf3h7ren_WnfBx1phDoPG9O0lcA7mr7f6sHOILxATiHpKaLfif67Ro4=w480-h960-rw',
       link: 'https://play.google.com/store/apps/details?id=com.blumotech.mymedicalcard&hl=en_US&gl=US',
     },
@@ -101,7 +101,7 @@ const config = {
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
-    limit: , // How many posts to display. Max is 10.
+    limit: 0, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
