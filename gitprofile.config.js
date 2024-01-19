@@ -2,18 +2,18 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'carlossclaro', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'carlossclaro',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
@@ -24,44 +24,28 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://blumotech.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'clarocarlos70@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Java',
+    'C++',
+    'C#',
+    'Python',
+    'Android',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'RX Music',
+      position: 'Support Technician',
+      from: 'October 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: 'https://rxmusic.com',
     },
   ],
   /* certifications: [
@@ -74,41 +58,50 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Centennial College',
+      degree: 'Software Engineering',
+      from: '2019',
+      to: '2022',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+  
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'HoldMyReceipts',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Organize your receipts and expenses effortlessly.',
+      imageUrl: 'https://play-lh.googleusercontent.com/cTjt_yxnB7T044AgfLt-GfeSZkSSoj20ECnc2-wDWlq60pYQBNVrNFsZWrQ5iwze7w=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.blumotech.hmr&hl=en_US&gl=US',
     },
     {
-      title: 'Project Name',
+      title: 'WeSplit',
+      description:
+        'WeSplit splits the bill fast, calculates tip, great for dining and drinks with friends! Save the hassle of guessing how much to tip.',
+      imageUrl: 'https://play-lh.googleusercontent.com/QpQpALsCly18QgelwbYruWqG1pIs0ZvcC8WzsR5u9NoGMVZ_BmS-B5f6mf_aS5MxG44=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.blumotech.wesplit&hl=en_US&gl=US',
+    },
+    {
+      title: 'MyMedicalCard',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://play-lh.googleusercontent.com/OR-8B8-vTrDzIf3h7ren_WnfBx1phDoPG9O0lcA7mr7f6sHOILxATiHpKaLfif67Ro4=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.blumotech.mymedicalcard&hl=en_US&gl=US',
+    },
+    {
+      title: 'TimeToCelebrate [In Beta]',
+      description:
+        'Track your events by creating a custom countdown.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'blumotech.com',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: , // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -119,7 +112,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -179,11 +172,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with ❤️`,
 };
 
 export default config;
